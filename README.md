@@ -5,7 +5,7 @@ I accidentally realised that it's not possible to decode an address to a CLLocat
 
 ## Usage
 
-#### Install
+### Install
 Copy Nominatim.swift into your project
 
 ### Methods
@@ -40,5 +40,12 @@ Like NominatimSwift? Get us a beer ;-)
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NVFEEVXQSSM9S)
 
-## License
-This source code is under MIT License
+## Meta
+
+Josef Moser – [@josef_moser](https://twitter.com/josef_moser)
+
+Distributed under the MIT license: Copyright (c) 2016 Josef Moser
+
+[https://github.com/caloon](https://github.com/caloon/)
+
+Feel free to use this source in any of your projects. If you'd like to acknowledge the author, feel free to link to www.caloon.co or this GitHub page.
