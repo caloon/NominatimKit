@@ -12,6 +12,7 @@
 		D2DD9DDD1DEF52CB00235B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DD9DDB1DEF52CB00235B13 /* Main.storyboard */; };
 		D2DD9DDF1DEF52CB00235B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DD9DDE1DEF52CB00235B13 /* Assets.xcassets */; };
 		D2DD9DE21DEF52CB00235B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DD9DE01DEF52CB00235B13 /* LaunchScreen.storyboard */; };
+		D2DD9DEA1DEF531400235B13 /* Nominatim.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD9DE91DEF531400235B13 /* Nominatim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D2DD9DDE1DEF52CB00235B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2DD9DE11DEF52CB00235B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2DD9DE31DEF52CB00235B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DD9DE91DEF531400235B13 /* Nominatim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nominatim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D2DD9DD71DEF52CB00235B13 /* AppDelegate.swift */,
 				D2DD9DD91DEF52CB00235B13 /* ViewController.swift */,
+				D2DD9DE91DEF531400235B13 /* Nominatim.swift */,
 				D2DD9DDB1DEF52CB00235B13 /* Main.storyboard */,
 				D2DD9DDE1DEF52CB00235B13 /* Assets.xcassets */,
 				D2DD9DE01DEF52CB00235B13 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DD9DEA1DEF531400235B13 /* Nominatim.swift in Sources */,
 				D2DD9DDA1DEF52CB00235B13 /* ViewController.swift in Sources */,
 				D2DD9DD81DEF52CB00235B13 /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				D2DD9DE81DEF52CB00235B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
