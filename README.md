@@ -26,7 +26,6 @@ Nominatim.getLocation(fromAddress: "The Royal Palace of Stockholm", completion: 
 Search with Latitude and Longitude
 ```
 Nominatim.getLocation(fromLatitude: "55.6867243", longitude: "12.5700724", completion: {(error, location) -> Void in
-      print("---")
       print("City for geolocation 55.6867243/12.5700724:")
       print(location?.city)
     })
