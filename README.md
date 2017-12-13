@@ -52,24 +52,19 @@ Nominatim.getLocation(fromLatitude: "55.6867243", longitude: "12.5700724", compl
 ## Contribution
 - If you'd like to contribute please submit a pull request via GitHub. 
 
-Like NominatimSwift? Get us a beer ;-) 
 
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NVFEEVXQSSM9S)
+Like NominatimSwift? Make a donation:
+BTC: soon
+ETH: soon
+LTC: soon
 
 ## Meta
 
 Josef Moser – [@josef_moser](https://twitter.com/josef_moser)
 
 Distributed under the MIT license: Copyright (c) 2016 Josef Moser
-
 [https://github.com/caloon](https://github.com/caloon/)
 
-Feel free to use this source in any of your projects. If you'd like to acknowledge the author, feel free to link to www.caloon.co or this GitHub page.
-
-
-## Author
-
-Josef, me@josefmoser.de
 
 ## License
 
