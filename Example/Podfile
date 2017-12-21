@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Nominatim_Example' do
+  pod 'Nominatim', :path => '../'
+
+  target 'Nominatim_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

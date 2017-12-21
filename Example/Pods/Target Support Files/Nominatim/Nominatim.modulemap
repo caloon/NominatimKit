@@ -1,0 +1,6 @@
+framework module Nominatim {
+  umbrella header "Nominatim-umbrella.h"
+
+  export *
+  module * { export * }
+}
