@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Nominatim'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'A Swift wrapper for (reverse) geocoding of OpenStreetMap data'
 
 # This description is used to generate tags and improve search results.
@@ -26,9 +26,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/caloon/NominatimKit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/josef_moser'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
-  s.source_files = 'Nominatim/Classes/**/*'
+  s.source_files = 'Nominatim/Classes/Nominatim.swift'
   
   # s.resource_bundles = {
   #   'Nominatim' => ['Nominatim/Assets/*.png']
