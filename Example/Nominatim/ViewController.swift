@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import Nominatim
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         // Search for Addresses
         Nominatim.getLocation(fromAddress: "Stephansplatz, 1010 Vienna, Austria", completion: {(error, location) -> Void in

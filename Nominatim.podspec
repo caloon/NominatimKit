@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Nominatim'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A Swift wrapper for (reverse) geocoding of OpenStreetMap data'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Use NominatimKit to access OpenStreetMaps and the free Nominatim API to gather location data for a specific latitude, address or landmark.'
 
   s.homepage         = 'https://github.com/caloon/NominatimKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +26,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/caloon/NominatimKit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/josef_moser'
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'Nominatim/Classes/**/*'
   

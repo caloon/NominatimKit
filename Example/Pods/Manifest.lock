@@ -1,5 +1,5 @@
 PODS:
-  - Nominatim (0.1.0)
+  - Nominatim (0.1.2)
 
 DEPENDENCIES:
   - Nominatim (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Nominatim: be33a70d8dc62c2070824ee7d223d87047d58da5
+  Nominatim: 30c9565a21750e292b519dea7ba058a7c6a7d2e1
 
 PODFILE CHECKSUM: 0e123bf565f98aadd14265bf1f89514fad3a1e8e
 

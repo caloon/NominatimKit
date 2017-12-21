@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0858A7E5BD1F18DFBE3317C458E40F02 /* Nominatim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73963D1095C959952AB2EB02853490C3 /* Nominatim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0858A7E5BD1F18DFBE3317C458E40F02 /* Nominatim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B85AB878BDB0231BDB1A67627D0F1DB6 /* Nominatim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DA8D3B4447461773622B11823C53428 /* Pods-Nominatim_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83579F4564F3B2841108A10D7E5D926D /* Pods-Nominatim_Tests-dummy.m */; };
 		1E8CEE84859AE7A321041B1C062E708A /* Pods-Nominatim_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55A1C3ED414B6C0DD76FEDCFB80E20A /* Pods-Nominatim_Example-dummy.m */; };
 		509289FC9B0FBDB91FFBDB93E60E5F78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8669D1E689469F18FF54C256685EE719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		962D4FC31FEC61CD0018D900 /* Nominatim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962D4FC21FEC61CD0018D900 /* Nominatim.swift */; };
 		A343791BF25ECF33BE38B2EE29A73711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BB97A553F8811D77A3249F1B37479D99 /* Pods-Nominatim_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8CE18F8EA5239AC699D02C7A64D1FE /* Pods-Nominatim_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39BD2D88ABBFB8EA98A303B62B231D0 /* Nominatim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6B339D47142DB9C9C472B5C00BCEFD /* Nominatim-dummy.m */; };
 		CFDA14698A72DA6FAC0A9C4C74621B08 /* Pods-Nominatim_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 822DF516500EED0D31C65AF9404E16DC /* Pods-Nominatim_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F37CCA8A6D58E0E1BCFEE29D89808685 /* Nominatim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49EBE3C627BD987B05ACCBF8AA21CB /* Nominatim-dummy.m */; };
+		F9598641F0E5A5DE9F084D5438D983A1 /* Nominatim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40DAF8E935F9D70CBC3831FFAA232D3 /* Nominatim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,38 +30,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1118A97352A291E21FE4DC24E625235B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		149AA7617A7EB215DB65658673806B42 /* Pods-Nominatim_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nominatim_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1D7D8BC53B3D3080BD0D4696B5D57269 /* Pods-Nominatim_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Nominatim_Tests.modulemap"; sourceTree = "<group>"; };
-		21D1B01845B15042D54383910C08F67B /* Nominatim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nominatim.modulemap; sourceTree = "<group>"; };
-		2AA216378016472C36909130D3227519 /* Nominatim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-prefix.pch"; sourceTree = "<group>"; };
+		1D7D8BC53B3D3080BD0D4696B5D57269 /* Pods-Nominatim_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Nominatim_Tests.modulemap"; sourceTree = "<group>"; };
 		2CED22D62C18CABE4AFBCA68578B1E1D /* Pods-Nominatim_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nominatim_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		36D17E2AA4CE0489EF54CE941E9DED95 /* Pods-Nominatim_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Nominatim_Example.modulemap"; sourceTree = "<group>"; };
-		3A49EBE3C627BD987B05ACCBF8AA21CB /* Nominatim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nominatim-dummy.m"; sourceTree = "<group>"; };
+		2E3E9656281A828E81211015138E9A5F /* Nominatim.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nominatim.xcconfig; sourceTree = "<group>"; };
+		2F6B339D47142DB9C9C472B5C00BCEFD /* Nominatim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nominatim-dummy.m"; sourceTree = "<group>"; };
+		30E5CA47AD26F95C636B84C8277C29AB /* Nominatim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-prefix.pch"; sourceTree = "<group>"; };
+		36D17E2AA4CE0489EF54CE941E9DED95 /* Pods-Nominatim_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Nominatim_Example.modulemap"; sourceTree = "<group>"; };
 		42BA71296FF7933DD8C10E1001E2035A /* Pods-Nominatim_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nominatim_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A8B8B932E94DCEED26636AD5B94A9C8 /* Pods-Nominatim_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nominatim_Tests-resources.sh"; sourceTree = "<group>"; };
 		58B8B4CFC37BCE2D1F6FEA02E1BD3619 /* Pods-Nominatim_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nominatim_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73963D1095C959952AB2EB02853490C3 /* Nominatim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-umbrella.h"; sourceTree = "<group>"; };
-		7B2D2480E9A3B8A0918593DED20DA7F8 /* Nominatim.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nominatim.xcconfig; sourceTree = "<group>"; };
 		822DF516500EED0D31C65AF9404E16DC /* Pods-Nominatim_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nominatim_Tests-umbrella.h"; sourceTree = "<group>"; };
 		83579F4564F3B2841108A10D7E5D926D /* Pods-Nominatim_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nominatim_Tests-dummy.m"; sourceTree = "<group>"; };
 		8DB5192ACEDE886956B1F795317DE053 /* Pods-Nominatim_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nominatim_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		962D4FC21FEC61CD0018D900 /* Nominatim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nominatim.swift; path = Nominatim/Classes/Nominatim.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9867DD7A5C327EF584023B7D5B7EA5C5 /* Pods-Nominatim_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nominatim_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9A19231CBEFF6AE92E069EDAB3248416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6549A9AE0CEAC52EC93E7C965BA3812 /* Nominatim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nominatim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAD56D57EDCB7C9586D5377484683F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6549A9AE0CEAC52EC93E7C965BA3812 /* Nominatim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nominatim.framework; path = Nominatim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF48C6FF8FACB96CA471F5EF90524B0 /* Pods-Nominatim_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nominatim_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C3481CF8268D18B0877BA04023784F /* Nominatim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Nominatim.modulemap; sourceTree = "<group>"; };
+		B85AB878BDB0231BDB1A67627D0F1DB6 /* Nominatim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-umbrella.h"; sourceTree = "<group>"; };
 		C55A1C3ED414B6C0DD76FEDCFB80E20A /* Pods-Nominatim_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nominatim_Example-dummy.m"; sourceTree = "<group>"; };
 		CBAFF2078378699C6971714394D67CDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7192C4CA49EA65C225878B711E83318 /* Pods-Nominatim_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nominatim_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E79533AA4F205C0557F2B6B48DE158A5 /* Pods_Nominatim_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nominatim_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79533AA4F205C0557F2B6B48DE158A5 /* Pods_Nominatim_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nominatim_Tests.framework; path = "Pods-Nominatim_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC21295177FB4ED1B4D77DA69F2E433E /* Pods-Nominatim_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nominatim_Example-resources.sh"; sourceTree = "<group>"; };
 		F0CB11FF52D7EC6AACBB5DE8ACF3059E /* Pods-Nominatim_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nominatim_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F40DAF8E935F9D70CBC3831FFAA232D3 /* Nominatim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nominatim.swift; path = Nominatim/Classes/Nominatim.swift; sourceTree = "<group>"; };
 		F97D84946D7B3B3801013E957D13CFB0 /* Pods-Nominatim_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nominatim_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FE8CE18F8EA5239AC699D02C7A64D1FE /* Pods-Nominatim_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nominatim_Example-umbrella.h"; sourceTree = "<group>"; };
-		FEE381CEC561EF9A1FDF291C9DB6BA40 /* Pods_Nominatim_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nominatim_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE381CEC561EF9A1FDF291C9DB6BA40 /* Pods_Nominatim_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nominatim_Example.framework; path = "Pods-Nominatim_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,19 +95,9 @@
 		03B89E6384EC8CA9AB2E9DB711FB5919 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17B9E7C03613EB5961051CB981E4094A /* Nominatim */,
+				EF431AF51D1DE13D825DF8180CA23CE2 /* Nominatim */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		17B9E7C03613EB5961051CB981E4094A /* Nominatim */ = {
-			isa = PBXGroup;
-			children = (
-				962D4FC21FEC61CD0018D900 /* Nominatim.swift */,
-				B8622B5A5C24345D34DBEFC82D80D804 /* Support Files */,
-			);
-			name = Nominatim;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		190A3DE7A08CAF66746359B82B157FF5 /* Pods-Nominatim_Example */ = {
@@ -157,15 +147,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		B8622B5A5C24345D34DBEFC82D80D804 /* Support Files */ = {
+		A91462B3F05E8A31B6BB92B5FDB06702 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAD56D57EDCB7C9586D5377484683F31 /* Info.plist */,
-				21D1B01845B15042D54383910C08F67B /* Nominatim.modulemap */,
-				7B2D2480E9A3B8A0918593DED20DA7F8 /* Nominatim.xcconfig */,
-				3A49EBE3C627BD987B05ACCBF8AA21CB /* Nominatim-dummy.m */,
-				2AA216378016472C36909130D3227519 /* Nominatim-prefix.pch */,
-				73963D1095C959952AB2EB02853490C3 /* Nominatim-umbrella.h */,
+				1118A97352A291E21FE4DC24E625235B /* Info.plist */,
+				B6C3481CF8268D18B0877BA04023784F /* Nominatim.modulemap */,
+				2E3E9656281A828E81211015138E9A5F /* Nominatim.xcconfig */,
+				2F6B339D47142DB9C9C472B5C00BCEFD /* Nominatim-dummy.m */,
+				30E5CA47AD26F95C636B84C8277C29AB /* Nominatim-prefix.pch */,
+				B85AB878BDB0231BDB1A67627D0F1DB6 /* Nominatim-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Nominatim";
@@ -204,6 +194,16 @@
 				539D1BDBA2DA52BC0B9E37EC3A886444 /* Pods-Nominatim_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF431AF51D1DE13D825DF8180CA23CE2 /* Nominatim */ = {
+			isa = PBXGroup;
+			children = (
+				F40DAF8E935F9D70CBC3831FFAA232D3 /* Nominatim.swift */,
+				A91462B3F05E8A31B6BB92B5FDB06702 /* Support Files */,
+			);
+			name = Nominatim;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27BE019A8BE52D7EFEB6661E6C57214C /* Build configuration list for PBXNativeTarget "Nominatim" */;
 			buildPhases = (
-				92F00EECC4573FBB476736D0B19D8E9B /* Sources */,
+				56ABC9A8F23AE2EB6AAAA9643FA97843 /* Sources */,
 				5E7454952B5F038F431C322940DC30B4 /* Frameworks */,
 				CEC160126010E8D58DF65094D3A98A0A /* Headers */,
 			);
@@ -296,11 +296,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					6F62BC4D5577D9F8396A47568C72BB57 = {
-						LastSwiftMigration = 0920;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -330,12 +325,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92F00EECC4573FBB476736D0B19D8E9B /* Sources */ = {
+		56ABC9A8F23AE2EB6AAAA9643FA97843 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962D4FC31FEC61CD0018D900 /* Nominatim.swift in Sources */,
-				F37CCA8A6D58E0E1BCFEE29D89808685 /* Nominatim-dummy.m in Sources */,
+				C39BD2D88ABBFB8EA98A303B62B231D0 /* Nominatim-dummy.m in Sources */,
+				F9598641F0E5A5DE9F084D5438D983A1 /* Nominatim.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,11 +354,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		06601D91199119A7EC294BEA1801CF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149AA7617A7EB215DB65658673806B42 /* Pods-Nominatim_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nominatim_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nominatim_Example/Pods-Nominatim_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nominatim_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		11A46E8ACC9D404FA2D1E6BCCC52323A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B2D2480E9A3B8A0918593DED20DA7F8 /* Nominatim.xcconfig */;
+			baseConfigurationReference = 2E3E9656281A828E81211015138E9A5F /* Nominatim.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -392,7 +420,71 @@
 			};
 			name = Release;
 		};
-		30493D556ADA1591C8310D445A86209B /* Debug */ = {
+		3B540F4DE05DBFA8597FE08AC10A425C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB5192ACEDE886956B1F795317DE053 /* Pods-Nominatim_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nominatim_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nominatim_Tests/Pods-Nominatim_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nominatim_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40629A954571C24B11AC12E825D9C123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3E9656281A828E81211015138E9A5F /* Nominatim.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nominatim/Nominatim-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nominatim/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nominatim/Nominatim.modulemap";
+				PRODUCT_NAME = Nominatim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A60E2B2465284DC5CD5199690D6B0F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AEF48C6FF8FACB96CA471F5EF90524B0 /* Pods-Nominatim_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -407,7 +499,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Nominatim_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Nominatim_Tests/Pods-Nominatim_Tests.modulemap";
@@ -424,7 +516,96 @@
 			};
 			name = Debug;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF7EC08D7325A4A4A34E51A725CF31DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7192C4CA49EA65C225878B711E83318 /* Pods-Nominatim_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nominatim_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nominatim_Example/Pods-Nominatim_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nominatim_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -473,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,194 +664,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		3F64748161AFFF101CF332F27D8D6DAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DB5192ACEDE886956B1F795317DE053 /* Pods-Nominatim_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nominatim_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nominatim_Tests/Pods-Nominatim_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Nominatim_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		40629A954571C24B11AC12E825D9C123 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B2D2480E9A3B8A0918593DED20DA7F8 /* Nominatim.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Nominatim/Nominatim-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nominatim/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nominatim/Nominatim.modulemap";
-				PRODUCT_NAME = Nominatim;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5510694B1BB2064E051C452A1A37075D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7192C4CA49EA65C225878B711E83318 /* Pods-Nominatim_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nominatim_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nominatim_Example/Pods-Nominatim_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Nominatim_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F8B44C028326BCC9AA74EF15EC28C50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 149AA7617A7EB215DB65658673806B42 /* Pods-Nominatim_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nominatim_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nominatim_Example/Pods-Nominatim_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Nominatim_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -687,8 +680,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -696,8 +689,8 @@
 		4076F48F6ABF53BB4CB242CA6DC2BE3D /* Build configuration list for PBXNativeTarget "Pods-Nominatim_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F8B44C028326BCC9AA74EF15EC28C50 /* Debug */,
-				5510694B1BB2064E051C452A1A37075D /* Release */,
+				06601D91199119A7EC294BEA1801CF3C /* Debug */,
+				DF7EC08D7325A4A4A34E51A725CF31DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -705,8 +698,8 @@
 		E3E79551AF87F92252F620DB392CD76E /* Build configuration list for PBXNativeTarget "Pods-Nominatim_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30493D556ADA1591C8310D445A86209B /* Debug */,
-				3F64748161AFFF101CF332F27D8D6DAC /* Release */,
+				A60E2B2465284DC5CD5199690D6B0F23 /* Debug */,
+				3B540F4DE05DBFA8597FE08AC10A425C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
