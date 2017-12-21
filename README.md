@@ -5,8 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/Nominatim.svg?style=flat)](http://cocoapods.org/pods/Nominatim)
 [![Platform](https://img.shields.io/cocoapods/p/Nominatim.svg?style=flat)](http://cocoapods.org/pods/Nominatim)
 
-### Sorry I broke this repo by trying to add CocoaPods. Will fix in time for Christmas. In the meantime, just copy the Nominatim.swift file from the Sources folder to your project.
-
 A Swift wrapper for reverse geocoding of OpenStreetMap data
 
 I accidentally realised that it's not possible to decode an address to a CLLocation (latitude / longitude) and the other way round. So I built NominatimSwift. It uses OpenStreetMap's free Nominatim API gather location data for a specific latitude or a free text query (i.e. addresses or landmarks).
