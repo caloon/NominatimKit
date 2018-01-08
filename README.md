@@ -48,13 +48,10 @@ Nominatim.getLocation(fromLatitude: "55.6867243", longitude: "12.5700724", compl
 
 
 ## Contribution
-- If you'd like to contribute please submit a pull request via GitHub. 
+Contributions are encouraged and possible by opening issues and pull requests.
 
+If you like my content, please consider supporting what I do: https://www.buymeacoffee.com/caloon
 
-Like NominatimSwift? Make a donation:
-BTC: soon
-ETH: soon
-LTC: soon
 
 ## Meta
 
