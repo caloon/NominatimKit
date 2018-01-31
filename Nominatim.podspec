@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Nominatim'
-  s.version          = '0.3.1'
+  s.version          = '0.9.0'
   s.summary          = 'A Swift wrapper for (reverse) geocoding of OpenStreetMap data'
 
 # This description is used to generate tags and improve search results.

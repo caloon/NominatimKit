@@ -16,21 +16,28 @@ class ViewController: UIViewController {
         
         
         // Search for Addresses
-        Nominatim.getLocation(fromAddress: "Stephansplatz, 1010 Vienna, Austria", completion: {(error, location) -> Void in
-            print("Geolocation of the Royal Palace of Stockholm:")
-            print("lat = " + (location?.latitude)! + "   lon = " + (location?.longitude)!)
+        Nominatim.getLocation(fromAddress: "Stephansplatz, 1010 Vienna, Austria", completion: {(location) -> Void in
+            
+            if location != nil {
+                print("Geolocation of Stephansplatz, 1010 Vienna, Austria: " + "lat=" + location!.latitude + "   long=" + location!.longitude)
+            }
         })
         
         // Search for Landmarks
-        Nominatim.getLocation(fromAddress: "The Royal Palace of Stockholm", completion: {(error, location) -> Void in
-            print("Geolocation of the Royal Palace of Stockholm:")
-            print("lat = " + (location?.latitude)! + "   lon = " + (location?.longitude)!)
+        Nominatim.getLocation(fromAddress: "Schloss Neuschwanstein", completion: {(location) -> Void in
+            
+            if location != nil {
+                print("Geolocation of Schloss Neuschwanstein: " + "lat=" + location!.latitude + " long=" + location!.longitude)
+            }
+            
         })
         
         // Search with Latitude and Longitude
         Nominatim.getLocation(fromLatitude: "55.6867243", longitude: "12.5700724", completion: {(error, location) -> Void in
-            print("City for geolocation 55.6867243/12.5700724:")
-            print(location?.city)
+            
+            if location != nil {
+                print("City for geolocation 55.6867243/12.5700724: " + location!.city!)
+            }
         })
         
     }

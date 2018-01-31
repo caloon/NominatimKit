@@ -8,9 +8,9 @@
 
 import Foundation
 
-class Nominatim {
+public class Nominatim {
     
-    class func getLocation(fromAddress address: String, completion: @escaping (_ result: Location?) -> Void)  {
+    public class func getLocation(fromAddress address: String, completion: @escaping (_ result: Location?) -> Void)  {
         
         let queryURL =  URL(string:"https://nominatim.openstreetmap.org/search/" + address.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)! + "?format=json&addressdetails=1&limit=1")!
         let session = URLSession.shared
@@ -67,7 +67,7 @@ class Nominatim {
         }).resume()
     }
     
-    class func getLocation(fromLatitude latitude: String, longitude: String, completion: @escaping (_ error: Error?, _ result: Location?) -> Void)  {
+    public class func getLocation(fromLatitude latitude: String, longitude: String, completion: @escaping (_ error: Error?, _ result: Location?) -> Void)  {
         
         let queryURL =  URL(string:"https://nominatim.openstreetmap.org/reverse?format=json&lat=" + latitude + "&lon=" + longitude + "&addressdetails=1&limit=1")!
         let session = URLSession.shared
@@ -110,21 +110,21 @@ class Nominatim {
     }
 }
 
-class Location {
+public class Location {
     
-    var latitude: String
-    var longitude: String
-    var countryCode: String?
-    var country: String?
-    var state: String?
-    var county: String?
-    var postcode: String?
-    var city: String?
-    var cityDistrict: String?
-    var road: String?
-    var houseNumber: String?
+    public var latitude: String
+    public var longitude: String
+    public var countryCode: String?
+    public var country: String?
+    public var state: String?
+    public var county: String?
+    public var postcode: String?
+    public var city: String?
+    public var cityDistrict: String?
+    public var road: String?
+    public var houseNumber: String?
     
-    required init(lat: String, lon: String, countryCode: String?,  country: String?, state: String?, county: String?, postcode: String?, city: String?, cityDistrict: String?, road: String?, houseNumber: String?) {
+    required public init(lat: String, lon: String, countryCode: String?,  country: String?, state: String?, county: String?, postcode: String?, city: String?, cityDistrict: String?, road: String?, houseNumber: String?) {
         self.latitude = lat
         self.longitude = lon
         self.countryCode = countryCode
