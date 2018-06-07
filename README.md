@@ -7,7 +7,7 @@
 
 NominatimKit is a Swift wrapper for forward and reverse geocoding of OpenStreetMap data. 
 
-**Why?** Geocoding location data on iOS requires the use of CoreLocation and the user's permission to access location data. This permission if often not given. Even worse so, CLGeocoder can be [quite inaccurate](https://medium.com/@enricopiovesan/tutorial-geocoding-with-swift-4-7ef378778377#cb52). If you want a lightweight and more reliable solution to geocode addressess and coordinates, NominatimKit comes to the rescue.
+**Why?** Geocoding location data on iOS requires the use of CoreLocation and the user's permission to access location data. This permission if often not given. Even worse so, CLGeocoder can be <a href="https://medium.com/@enricopiovesan/tutorial-geocoding-with-swift-4-7ef378778377#cb52" target="_blank">quite inaccurate</a>. If you want a lightweight and more reliable solution to geocode addressess and coordinates, NominatimKit comes to the rescue.
 
 **How?** Nominatim is a search engine for OpenStreetMap data. NominatimKit uses the free Nominatim API to gather location data for specific geo coordinates or any free text query (i.e. addresses or landmarks).
 
