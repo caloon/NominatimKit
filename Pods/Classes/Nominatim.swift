@@ -24,7 +24,8 @@ public class Nominatim {
             if let httpResponse = response as? HTTPURLResponse {
                 if httpResponse.statusCode == 200 {
                     do {
-                        let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers)
+                        guard let data = data else { return }
+                        let jsonResult = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers)
                         
                         if let array = jsonResult as? Array<Dictionary<String, Any>> {
                             
@@ -79,7 +80,8 @@ public class Nominatim {
             }
             
             do {
-                let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers)
+                guard let data = data else { return }
+                let jsonResult = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers)
                 
                 if let dict = jsonResult as? Dictionary<String, Any> {
                     
